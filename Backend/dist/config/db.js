@@ -8,7 +8,7 @@ require("dotenv").config();
 const userName = process.env.MONGODB_USERNAME;
 const password = process.env.MONGODB_PASSWORD;
 const connect = () => {
-    return mongoose_1.default.connect(`mongodb+srv://${userName}:${password}@cluster0.py9qv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`, {
+    return mongoose_1.default.connect(`mongodb+srv://${userName}:${password}@cluster0.py9qv.mongodb.net/patient_mngmt?retryWrites=true&w=majority`, {
         useNewUrlParser: true,
         useCreateIndex: true,
         useUnifiedTopology: true,

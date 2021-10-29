@@ -5,3 +5,4 @@ app.listen(2244, async () => {
   await connect();
   console.log("server is running on 2244 port");
 });
+
